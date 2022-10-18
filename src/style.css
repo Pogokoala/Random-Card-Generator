@@ -1,1 +1,36 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card {
+  text-align: center;
+  font-size: 80px;
+  background: whitesmoke;
+  margin: auto;
+  height: 200px;
+  width: 250px;
+  padding: 20px;
+  padding-top: 160px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  position: relative;
+}
+
+.top-suit {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: 80px;
+}
+
+.bottom-suit {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  font-size: 80px;
+  transform: rotate(180deg);
+}
+
+/* div#myDiv {
+    transform: rotate(20deg);
+  } */
